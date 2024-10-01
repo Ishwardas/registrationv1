@@ -1,7 +1,0 @@
-package com.api.webapi.repository;
-
-import com.api.webapi.entity.Registration;
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface RegistrationRepository extends JpaRepository<Registration, Long> {
-}
